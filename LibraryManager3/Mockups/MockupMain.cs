@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace LibraryManager3
 {
-    public partial class FrmAllBooks : Form
+    public partial class MockupMain : Form
     {
-        public FrmAllBooks()
+        public MockupMain()
         {
             InitializeComponent();
         }
