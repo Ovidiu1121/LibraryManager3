@@ -12,9 +12,10 @@ namespace LibraryManager3
         private Button btnSortare;
         private Button btnAddBook;
         private Button currentButton;
-        private PnlHeader pnlHeader;
+        private Panel activePanel;
+        private PnlMain pnlMain;
 
-        private Form form;
+        private FrmHome form;
 
         public PnlAside(FrmHome form)
         {
@@ -70,6 +71,7 @@ namespace LibraryManager3
                     currentButton.Font=new System.Drawing.Font("Segoe UI Black", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
                     currentButton.ForeColor=Color.White;
                     //this.lblSelectedTitle.Text=currentButton.Text;
+
                 }
             }
 
@@ -105,5 +107,24 @@ namespace LibraryManager3
             activateButton(sender);
         }
 
+        //private void OpenChildForm(Panel childPanel, object btnSender)
+        //{
+        //    if (activePanel!=null)
+        //    {
+        //        activePanel.Close()
+        //    }
+        //    activateButton(btnSender);
+        //    activePanel = childPanel;
+        //    childPanel.TopLevel = false;
+        //    childPanel.FormBorderStyle = FormBorderStyle.None;
+        //    childPanel.Dock = DockStyle.Fill;
+        //    this.pnlMain.Controls.Add(childPanel);
+        //    this.pnlMain.Tag = childPanel;
+        //    childPanel.BringToFront();
+        //    childPanel.Show();
+            
+        //}
+
+       
     }
 }

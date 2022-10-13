@@ -10,7 +10,7 @@ namespace LibraryManager3
     {
 
         private Label lblTitle;
-        private Label lblSelectedTitle;
+        public Label lblSelectedTitle;
         private Button btnClose;
         private FrmHome form;
 
@@ -50,6 +50,7 @@ namespace LibraryManager3
 
 
         }
+
 
 
     }

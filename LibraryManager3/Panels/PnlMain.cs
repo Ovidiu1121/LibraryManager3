@@ -20,7 +20,8 @@ namespace LibraryManager3
             this.Size = new Size(615, 349);
             this.Name="PnlMain";
             this.BackColor=Color.White;
-            
+            this.Anchor=AnchorStyles.Right|AnchorStyles.Bottom|AnchorStyles.Left|AnchorStyles.Top;
+
 
             this.lbl = new Label();
             this.Controls.Add(this.lbl);

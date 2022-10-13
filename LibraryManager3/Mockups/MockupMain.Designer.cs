@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -141,6 +142,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.panel3.Controls.Add(this.listView1);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(185, 101);
@@ -157,6 +159,17 @@
             this.label3.Size = new System.Drawing.Size(216, 35);
             this.label3.TabIndex = 0;
             this.label3.Text = "Choose a button";
+            // 
+            // listView1
+            // 
+            this.listView1.BackColor = System.Drawing.Color.Wheat;
+            this.listView1.GridLines = true;
+            this.listView1.Location = new System.Drawing.Point(70, 47);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(478, 266);
+            this.listView1.TabIndex = 1;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
             // MockupMain
             // 
@@ -189,5 +202,6 @@
         private Button button4;
         private Panel panel3;
         private Label label3;
+        private ListView listView1;
     }
 }
